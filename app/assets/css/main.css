@@ -4,4 +4,15 @@
 @theme{
     --font-rubik: "Rubik", sans-serif;
     --font-rubik-mono: "Rubik Mono One", monospace;
+
+    --animate-marquee: marquee 40s linear infinite;
+
+    @keyframes marquee{
+        0%{
+            transform: translateX(1%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
 }
