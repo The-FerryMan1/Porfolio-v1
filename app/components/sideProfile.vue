@@ -11,7 +11,7 @@
 
         <section class="p-10 font-rubik-mono flex flex-col gap-6 justify-start items-start text-xl">
             <div class="flex gap-3 justify-between items-center">
-                <h1 class="text-xl">The-FerryMan1</h1>
+                <h1 class="text-xl">ROX-DEV</h1>
             </div>
 
             <div class="flex gap-3 justify-between items-center">
@@ -21,7 +21,7 @@
 
             <div class="flex flex-col gap-3 justify-between items-center">
 
-                <p class="text-lg">Contacts</p>
+                <p class="text-lg text-red-500">Contacts</p>
                 <div class="flex justify-start items-start w-full gap-5">
                     <a href="https://github.com/The-FerryMan1" class="font-rubik group py-2 ">
                         <Icon name="i-lucide-github" size="30"
@@ -30,6 +30,10 @@
                     <a href="https://mail.google.com/mail/u/0/?to=mercedroxy@gmail.com&fs=1&tf=cm"
                         class="font-rubik group py-2">
                         <Icon name="i-lucide-mail" size="30"
+                            class="group-hover:scale-120 transition-transform duration-150" />
+                    </a>
+                    <a href="https://ph.linkedin.com/in/merced-roxy-51b193328" class="font-rubik group py-2">
+                        <Icon name="i-lucide-link"  size="30"
                             class="group-hover:scale-120 transition-transform duration-150" />
                     </a>
                 </div>
