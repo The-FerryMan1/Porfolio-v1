@@ -7,7 +7,7 @@ const links = [
 
 <template>
     <aside
-        class="w-1/12  rounded-md overflow-hidden  font-rubik-mono bg-transparent text-white p-5">
+        class="w-1/20  rounded-md overflow-hidden  font-rubik-mono bg-transparent text-white p-5">
         <nav class="h-full ">
             <ul class="flex justify-center flex-col items-center h-full text-center gap-35">
                 <li v-for="link in links"
