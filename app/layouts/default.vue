@@ -6,7 +6,8 @@
         <SideProfile />
 
 
-        <main class="grow flex flex-col w-full rounded-md overflow-x-hidden overflow-y-auto scroll-smooth">
+        <main
+            class="grow flex flex-col w-full rounded-md overflow-x-hidden overflow-y-auto scroll-smooth mostly-customized-scrollbar">
 
             <!-- Role -->
             <Role />
@@ -14,34 +15,9 @@
             <TechStack />
             <!-- About -->
             <About />
-
             <!-- projects -->
-            <section class="p-5 mt-10">
-                <h1 id="Projects" class="text-3xl font-rubik-mono mb-5">#Projects</h1>
-
-
-                <!-- card container -->
-                <section class="grid-cols-2 grid gap-1">
-                    <div class="flex flex-col p-2 gap-2">
-                        <img src="https://placehold.co/600x400" alt="" class="size-full rounded-lg">
-
-                        <div>
-                            <p>Title</p>
-                            <p>tech-stack</p>
-                            <p>type</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-col p-2 gap-2">
-                        <img src="https://placehold.co/600x400" alt="" class="size-full rounded-lg">
-
-                        <div>
-                            <p>Title</p>
-                            <p>tech-stack</p>
-                            <p>type</p>
-                        </div>
-                    </div>
-                </section>
-            </section>
+            <Projects />
+            <Footer/>
         </main>
         <SideNav />
 

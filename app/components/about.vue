@@ -19,8 +19,10 @@
                 <Icon name="i-lucide-mail" size="30" class="group-hover:scale-120 transition-transform duration-150" />
             </a> and let's build something awesome together!
         </p>
-        <button
-            class="bg-red-500 text-white font-rubik w-1/6 p-3 rounded-md hover:opacity-40 transition-all border border-red-500 bg-trans duration-150 hover:scale-90">Download
-            CV</button>
+        <a href="/files/Roxy Merced - Resume.pdf" download
+            class="bg-red-500 text-white flex items-center justify-evenly font-rubik w-1/6 p-3 rounded-md hover:opacity-40 transition-all border border-red-500 bg-trans duration-150 hover:scale-90">Download
+            CV
+            <Icon name="i-lucide-download" class="size-20" />
+        </a>
     </section>
 </template>
