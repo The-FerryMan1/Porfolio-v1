@@ -20,7 +20,7 @@
                 CSS
             </a>
             <a href="https://tailwindcss.com/" class="    mx-2 flex gap-2 items-center item item4 hover:scale-75 transition-transform duration-150">
-                <img src="../assets/img/tailwindcss-mark.svg" alt="" class="size-12 object-contain">
+                <img src="../assets/img/tailwindcss.svg" alt="" class="size-12 object-contain">
                 TAILWIND
             </a>
             <a href="https://vuejs.org/" class="    mx-2 flex gap-2 items-center item item5 hover:scale-75 transition-transform duration-150">
