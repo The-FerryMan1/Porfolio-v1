@@ -3,25 +3,25 @@
 </script>
 
 <template>
-    <aside class="w-1/5  rounded-md">
+    <aside class="sn:w-1/5 gap-4 flex sm:flex-col h-[120px] rounded-md sm:order-1 order-2">
         <section class=" flex justify-center ">
             <img src="https://www.kindpng.com/picc/m/722-7221920_placeholder-profile-image-placeholder-png-transparent-png.png"
-                alt="" class="rounded-full aspect-auto p-8 w-3/4 ">
+                alt="" class="sm:rounded-full rounded-lg aspect-auto sm:p-8 sm:w-3/4 w-[120px]  ">
         </section>
 
-        <section class="p-10 font-rubik-mono flex flex-col gap-6 justify-start items-start text-xl">
+        <section class="sm:p-10 font-rubik-mono flex flex-col sm:gap-6 justify-start items-start text-xl">
             <div class="flex gap-3 justify-between items-center">
-                <h1 class="text-xl">ROX-DEV</h1>
+                <h1 class="text-md sm:text-lg">ROX-DEV</h1>
             </div>
 
-            <div class="flex gap-3 justify-between items-center">
-                <Icon name="i-lucide-map-pin" size="20" />
-                <p class="font-rubik ">Philippines</p>
-            </div>
+            <!-- <div class="flex gap-3 justify-between items-center">
+                <Icon name="i-lucide-map-pin" size="12"  />
+                <p class="font-rubik text-sm sm:text-base">Philippines</p>
+            </div> -->
 
             <div class="flex flex-col gap-3 justify-between items-center">
 
-                <p class="text-lg text-red-500">Contacts</p>
+                <p class="sm:text-lg text-sm text-red-500">Contacts</p>
                 <div class="flex justify-start items-start w-full gap-5">
                     <a href="https://github.com/The-FerryMan1" class="font-rubik group py-2 ">
                         <Icon name="i-lucide-github" size="30"

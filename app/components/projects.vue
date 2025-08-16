@@ -8,7 +8,7 @@
 
 
         <!-- card container -->
-        <section class="grid-cols-2 grid gap-1">
+        <section class="sm:grid-cols-2 grid-cols-1 grid gap-1">
             <!-- card -->
             <div class="flex flex-col gap-2 rounded-xl border border-white/80">
                 <img src="../assets/img/vitapulse.png" alt="" class="size-full rounded-xl">
