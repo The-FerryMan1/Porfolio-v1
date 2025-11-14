@@ -10,7 +10,7 @@ const links = [
 </script>
 
 <template>
-    <UPageSection title="Projects" :links
+    <UPageSection id="#projects" title="Projects" :links
         description="Check out the collection of projects I made throughout my journey to enhance and improve my skill in this profession. ">
         <UPageColumns>
             <UPageCard title="Link Shortener | Personal Project"

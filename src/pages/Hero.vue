@@ -1,13 +1,24 @@
 <script setup lang="ts">
+
+
+
 const links = [
     {
         label: 'Get CV',
-        to: '/docs/getting-started',
-        icon: 'i-lucide-file-user'
+        icon: 'i-lucide-file-user',
+        onclick: async (e: Event) => {
+            const link = document.createElement('a')
+            link.href = '../../public/resume/Roxy-Villalino-Merced-Resume.pdf'
+            link.download = 'roxy_resume.pdf'
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+        }
     },
     {
         label: 'Projects',
-        to: '/docs/getting-started/theme/design-system',
+        to: '#projects',
         color: 'neutral',
         variant: 'subtle',
         trailingIcon: 'i-lucide-arrow-right'
@@ -17,9 +28,10 @@ const links = [
 
 
 <template>
-    <UPageHero 
-        title="Full-Stack Developer"
+    <UPageHero title="Full-Stack Developer"
         description="Full-Stack Developer with six months of professional experience in a dynamic environment, successfully delivering key features from concept to production deployment. I am proficient in modern architectural principles and committed to building scalable solutions that address real-world challenges."
-        :links
-    />
+        :links orientation="horizontal">
+
+        <img src="../assets/img/lazybot.png" alt="App screenshot" class="rounded-lg" />
+    </UPageHero>
 </template>

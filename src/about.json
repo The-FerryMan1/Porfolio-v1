@@ -1,0 +1,19 @@
+{
+    "personal_info": {
+        "name": "Roxy Merced",
+        "title": "Entry level full stack developer",
+        "location": "Philippines, Cavite",
+        "bio_summary": "I'm a fresh graduate web developer with intership exprience in web development."
+    },
+    "contact": {
+        "email": "mercedroxy@gmail.com",
+        "website": "https://porfolio-v1-m8tl.vercel.app/",
+        "github": "https://github.com/The-FerryMan1"
+    },
+    "key_skills": [
+        "Typescript",
+        "Node.JS/Bun.JS",
+        "CSS/TailwindCSS",
+        "Vue.JS"
+    ]
+}
